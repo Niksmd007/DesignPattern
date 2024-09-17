@@ -7,6 +7,6 @@ public interface StockObservable {
     public void remove(NotificationAlertObserver observer);
     public void notifySubscriber();
     public void setStocksCount(int newStockAdded);
-    public int getStocksCount();
+    public void  getStocksCount();
 
 }
