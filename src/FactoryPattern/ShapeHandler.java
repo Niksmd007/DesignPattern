@@ -10,5 +10,7 @@ public class ShapeHandler {
         shape1.draw();
         Shape shape2=shapeFactory.getShape("RECTANGLE");
         shape2.draw();
+        Shape shape3=shapeFactory.getShape("TRIANGLE");
+        shape3.draw();
     }
 }

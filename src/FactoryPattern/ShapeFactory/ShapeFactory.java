@@ -1,6 +1,7 @@
 package FactoryPattern.ShapeFactory;
 
 import FactoryPattern.Shape.Circle;
+import FactoryPattern.Shape.NullObject;
 import FactoryPattern.Shape.Rectangle;
 import FactoryPattern.Shape.Shape;
 
@@ -12,7 +13,7 @@ public class ShapeFactory {
             case "RECTANGLE":
                 return  new Rectangle();
             default:
-                return  null;
+                return  new NullObject(); //null object pattern
         }
     }
 }
